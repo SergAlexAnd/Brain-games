@@ -1,0 +1,37 @@
+{
+  "name": "brain-games-sergalexand",
+  "version": "0.2.1",
+  "description": "project #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergAlexAnd/project-lvl1-s376.git"
+  },
+  "keywords": [
+    "hexlet",
+    "brain-games"
+  ],
+  "author": "AlexS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergAlexAnd/project-lvl1-s376/issues"
+  },
+  "homepage": "https://github.com/SergAlexAnd/project-lvl1-s376#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.5"
+  }
+}
