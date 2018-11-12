@@ -1,6 +1,6 @@
 {
   "name": "brain-games-sergalexand",
-  "version": "0.2.1",
+  "version": "0.3.3",
   "description": "project #1",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,9 @@
     "@babel/core": "^7.1.5",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.5"
+    
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
