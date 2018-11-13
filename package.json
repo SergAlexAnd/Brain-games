@@ -1,8 +1,7 @@
 {
   "name": "brain-games-sergalexand",
-  "version": "0.3.3",
+  "version": "0.3.5",
   "description": "project #1",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
@@ -36,8 +35,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "npx": "^10.2.0"
+    "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.9"
