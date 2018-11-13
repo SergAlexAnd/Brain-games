@@ -1,11 +1,14 @@
 ---
 
+# https://eslint.org/docs/user-guide/configuring#specifying-environments
 env:
   browser: true
   node: true
 
 rules:
   no-console: 0
+  indent:
+    - 2
 
 # https://github.com/babel/babel-eslint
 parser: babel-eslint
