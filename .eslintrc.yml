@@ -6,8 +6,6 @@ env:
 
 rules:
   no-console: 0
-  indent:
-    - 2
 
 # https://github.com/babel/babel-eslint
 parser: babel-eslint
