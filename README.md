@@ -4,11 +4,14 @@
 
 [![Build Status](https://travis-ci.org/SergAlexAnd/project-lvl1-s376.svg?branch=master)](https://travis-ci.org/SergAlexAnd/project-lvl1-s376)
 
-## Brain even
+## Игра: "Проверка на четность"
 
 [![asciicast](https://asciinema.org/a/7FFjLCa74IYe0gQk5Dqr8QsAQ.png)](https://asciinema.org/a/7FFjLCa74IYe0gQk5Dqr8QsAQ)
 
-## Brain calc
+## Игра: "Калькулятор"
 
 [![asciicast](https://asciinema.org/a/vpXJhfwZdUnL697KsYOYNjPfL.png)](https://asciinema.org/a/vpXJhfwZdUnL697KsYOYNjPfL)
-https://asciinema.org/a/vpXJhfwZdUnL697KsYOYNjPfL
+
+## Игра "НОД"
+
+[![asciicast](https://asciinema.org/a/z2aY4kRaoXmFVnh7s4yual9Jj.png)](https://asciinema.org/a/z2aY4kRaoXmFVnh7s4yual9Jj)

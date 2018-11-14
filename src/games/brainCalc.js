@@ -1,6 +1,7 @@
 import { qA } from './pairsQA';
 import { engine, randNum } from './engine';
 
+// функция которая формирует вопрос и ответ
 const QA = () => {
   const num1 = randNum(100);
   const num2 = randNum(100);

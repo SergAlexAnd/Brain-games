@@ -1,7 +1,9 @@
 import { qA } from './pairsQA';
 import { engine, randNum } from './engine';
 
+// проверка на четность "да/нет"
 const isEven = num => (num % 2 === 0 ? 'yes' : 'no');
+
 const QA = () => {
   const randomNum = randNum(100);
   return qA(randomNum, isEven(randomNum));

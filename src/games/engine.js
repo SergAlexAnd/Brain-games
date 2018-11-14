@@ -2,8 +2,10 @@ import readlineSync from 'readline-sync';
 import { welcome, nameQuestion } from '..';
 import { getAnswer, getQuestion } from './pairsQA';
 
+// случайный номер от 0 до multiplier
 export const randNum = multiplier => Math.round(Math.random() * multiplier);
 
+// движок игры
 export const engine = (rounds, explanation, queAns) => {
   welcome(explanation);
   const name = nameQuestion();
@@ -13,12 +15,14 @@ export const engine = (rounds, explanation, queAns) => {
       console.log(`Congratulations, ${name}!`);
       return;
     }
-    // выводим номер
+    // формируем вопрос и правильный ответ
     const questionAndRightAnsw = queAns();
+    // получаем вопрос
     const question = getQuestion(questionAndRightAnsw);
     console.log(`Question: ${question}`);
     // записываем ответ
     const answer = readlineSync.question('Your answer: ');
+    // получаем правильный ответ
     const rightAnswer = getAnswer(questionAndRightAnsw);
     // проверяем правильный ли ответ
     // eslint-disable-next-line eqeqeq
