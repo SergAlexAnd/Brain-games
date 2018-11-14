@@ -1,12 +1,11 @@
-import { qA } from './pairsQA';
-import { engine, randNum } from './engine';
+import { cons } from 'hexlet-pairs';
+import { engine, randNum } from '../engine';
 
-// проверка на четность "да/нет"
-const isEven = num => (num % 2 === 0 ? 'yes' : 'no');
+const isEven = num => num % 2 === 0;
 
-const QA = () => {
-  const randomNum = randNum(100);
-  return qA(randomNum, isEven(randomNum));
+const questionAndAnswer = () => {
+  const question = randNum(100);
+  return cons(question, isEven(question) ? 'yes' : 'no');
 };
 
-export default () => engine(3, 'Answer "yes" if number even otherwise answer "no".', QA);
+export default () => engine('Answer "yes" if number even otherwise answer "no".', questionAndAnswer);
