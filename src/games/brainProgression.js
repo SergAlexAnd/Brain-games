@@ -1,24 +1,30 @@
 import { cons } from 'hexlet-pairs';
-import { engine, randNum } from '../engine';
+import engine from '../engine';
+import randNum from '../utils';
 
+const length = 10;
+const getfirstElement = () => randNum(0, 20);
+const getStep = () => randNum(1, 10);
 
-const randomProgression = () => {
+const randomProgression = (first, step, lengthOfProgression) => {
   const result = [];
-  const length = 10;
-  result[0] = randNum(20);
-  const multiplier = randNum(9) + 1;
-  for (let i = 1; i < length; i += 1) {
-    result[i] = result[i - 1] + multiplier;
+  const firstElement = first();
+  const stepOfProgression = step();
+  for (let i = 0; i < lengthOfProgression; i += 1) {
+    result[i] = firstElement + stepOfProgression * i;
   }
   return result;
 };
 
 const questionAndAnswer = () => {
-  const progression = randomProgression();
-  const randomIndex = randNum(9);
-  const answer = progression[randomIndex];
-  progression[randomIndex] = '..';
-  return cons(`${progression.join(' ')}`, answer);
+  const progression = randomProgression(getfirstElement, getStep, length);
+  const hiddenElementPosition = randNum(0, 9);
+  const answer = progression[hiddenElementPosition];
+  progression[hiddenElementPosition] = '..';
+  const question = `${progression.join(' ')}`;
+  return cons(question, answer);
 };
 
-export default () => engine('What number is missing in the progression?', questionAndAnswer);
+const description = 'What number is missing in the progression?';
+
+export default () => engine(description, questionAndAnswer);

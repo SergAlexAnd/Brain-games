@@ -2,11 +2,8 @@ import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 import { welcome, nameQuestion } from '.';
 
-export const randNum = multiplier => Math.round(Math.random() * multiplier);
-
-
-export const engine = (explanation, queAns) => {
-  welcome(explanation);
+export default (description, questionAndRightAnswer) => {
+  welcome(description);
   const name = nameQuestion();
   const rounds = 3;
   const iter = (round) => {
@@ -14,7 +11,7 @@ export const engine = (explanation, queAns) => {
       console.log(`Congratulations, ${name}!`);
       return null;
     }
-    const questionAndRightAnsw = queAns();
+    const questionAndRightAnsw = questionAndRightAnswer();
     const question = car(questionAndRightAnsw);
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');

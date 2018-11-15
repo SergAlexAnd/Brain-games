@@ -1,6 +1,6 @@
 {
   "name": "brain-games-sergalexand",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "project #1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
