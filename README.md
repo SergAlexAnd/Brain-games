@@ -24,3 +24,7 @@ nmp -g install brain-games-sergalexand
 ## Игра "Арифметическая прогрессия"
 
 [![asciicast](https://asciinema.org/a/nDVVQR1lYdZfUi0izfKgvhNlL.png)](https://asciinema.org/a/nDVVQR1lYdZfUi0izfKgvhNlL)
+
+## Игра "Простое ли число?"
+
+[![asciicast](https://asciinema.org/a/EY6zXUGCMLI8y4FmbIKO3ou9N.png)](https://asciinema.org/a/EY6zXUGCMLI8y4FmbIKO3ou9N)
