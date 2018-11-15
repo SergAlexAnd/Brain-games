@@ -7,13 +7,13 @@ const questionAndAnswer = () => {
   const num2 = randNum(0, 100);
   switch (randNum(1, 3)) {
     case 1:
-      return cons(`${num1} + ${num2}`, num1 + num2);
+      return cons(`${num1} + ${num2}`, `${num1 + num2}`);
     case 2:
-      return cons(`${num1} - ${num2}`, num1 - num2);
+      return cons(`${num1} - ${num2}`, `${num1 - num2}`);
     case 3:
-      return cons(`${num1} * ${num2}`, num1 * num2);
+      return cons(`${num1} * ${num2}`, `${num1 * num2}`);
     default:
-      return cons(`${num1} - ${num2}`, num1 - num2);
+      return cons(`${num1} - ${num2}`, `${num1 + num2}`);
   }
 };
 

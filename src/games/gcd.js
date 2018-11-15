@@ -13,7 +13,7 @@ const questionAndAnswer = () => {
   const num1 = randNum(0, 100);
   const num2 = randNum(0, 100);
   const question = `${num1} ${num2}`;
-  const answer = gcd(num1, num2);
+  const answer = `${gcd(num1, num2)}`;
   return cons(question, answer);
 };
 
