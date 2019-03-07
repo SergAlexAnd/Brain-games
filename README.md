@@ -11,20 +11,40 @@ nmp -g install brain-games-sergalexand
 
 ## Игра: "Проверка на четность"
 
-[![asciicast](https://asciinema.org/a/7FFjLCa74IYe0gQk5Dqr8QsAQ.png)](https://asciinema.org/a/7FFjLCa74IYe0gQk5Dqr8QsAQ)
+```
+brain-even
+```
+
+[![asciicast](https://asciinema.org/a/VoacwMQF8LgPecC3OEPenkt31.svg)](https://asciinema.org/a/VoacwMQF8LgPecC3OEPenkt31)
 
 ## Игра: "Калькулятор"
 
-[![asciicast](https://asciinema.org/a/vpXJhfwZdUnL697KsYOYNjPfL.png)](https://asciinema.org/a/vpXJhfwZdUnL697KsYOYNjPfL)
+```
+brain-calc
+```
+
+[![asciicast](https://asciinema.org/a/PbBYixOTvOOfuP2knVuHJqmrs.svg)](https://asciinema.org/a/PbBYixOTvOOfuP2knVuHJqmrs)
 
 ## Игра "НОД"
 
-[![asciicast](https://asciinema.org/a/z2aY4kRaoXmFVnh7s4yual9Jj.png)](https://asciinema.org/a/z2aY4kRaoXmFVnh7s4yual9Jj)
+```
+brain-gcd
+```
+
+[![asciicast](https://asciinema.org/a/KsWTZGEI7zTV7wP1x3oSxgjh4.svg)](https://asciinema.org/a/KsWTZGEI7zTV7wP1x3oSxgjh4)
 
 ## Игра "Арифметическая прогрессия"
 
-[![asciicast](https://asciinema.org/a/nDVVQR1lYdZfUi0izfKgvhNlL.png)](https://asciinema.org/a/nDVVQR1lYdZfUi0izfKgvhNlL)
+```
+brain-progression
+```
+
+[![asciicast](https://asciinema.org/a/1O7QhBDhGPggPHK5oiaxyQFlf.svg)](https://asciinema.org/a/1O7QhBDhGPggPHK5oiaxyQFlf)
 
 ## Игра "Простое ли число?"
 
-[![asciicast](https://asciinema.org/a/EY6zXUGCMLI8y4FmbIKO3ou9N.png)](https://asciinema.org/a/EY6zXUGCMLI8y4FmbIKO3ou9N)
+```
+brain-prime
+```
+
+[![asciicast](https://asciinema.org/a/pg3YrwCpKnjEjE9b8GP64rMNi.svg)](https://asciinema.org/a/pg3YrwCpKnjEjE9b8GP64rMNi)
