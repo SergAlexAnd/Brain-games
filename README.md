@@ -3,7 +3,7 @@
 ## install
 
 ```
-nmp -g install brain-games-sergalexand
+npm -g install brain-games-sergalexand
 ```
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/3aca37852762fd34b0fe/maintainability)](https://codeclimate.com/github/SergAlexAnd/project-lvl1-s376/maintainability)
